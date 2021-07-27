@@ -11,7 +11,7 @@ const Contact = () => {
         </h6>
         <div className="container">
           <div className="row">
-            <div className="col-md-5 col-10 mx-auto contact-form">
+            <div className="col-md-5 col-10 mx-auto contact-form pt-5">
               <form
                 name="contact"
                 // method="post"

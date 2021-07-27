@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            -LOGO-
+            <h2 style={{ color: "#2C3454" }}>Wasteknot</h2>
           </NavLink>
           {/* You can replace this with logo and add logo class to it */}
           <button

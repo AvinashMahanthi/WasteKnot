@@ -36,10 +36,77 @@ const Home = () => {
         </div>
       </section>
 
+      <section id="change-maker">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="section_title text-center mb-50">
+                <h2 className="section-title pb-3">
+                  Everyone can be a Changemaker
+                </h2>
+                <p className="text-muted">
+                  The world needs urgent action to address the plastic pollution
+                  crisis. You can start working on an idea or join of the many
+                  teams working on their ideas and start tackling the plastic
+                  waste problem. Right now!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 card">
+              <div class="card-body">
+                <h4 class="mb-20">Seeker</h4>
+                <p className="text-muted">
+                  Identified a recycling related challenge or is in need of a
+                  solution
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 card">
+              <div class="card-body">
+                <h4 class="mb-20">Innovator</h4>
+                <p className="text-muted">
+                  Would like to develop or has developed technological or
+                  behavioural or process solution to address the challenges
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 card">
+              <div class="card-body">
+                <h4 class="mb-20">Mentor</h4>
+                <p className="text-muted">
+                  Provides subject matter expertise for the development and
+                  implementation of solutions
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 card">
+              <div class="card-body">
+                <h4 class="mb-20">Enabler</h4>
+                <p className="text-muted">
+                  Members of the support community who help the innovators get
+                  things done
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 card">
+              <div class="card-body">
+                <h4 class="mb-20">Supporter</h4>
+                <p className="text-muted">
+                  Partners and Sponsors who catalyse the process of taking
+                  solutions from labs to lives{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* purpose of waste knot */}
 
       <section id="purpose">
-        <div className="container pt-2">
+        <div className="container pt-4">
           <div className="row">
             <h2 className="section-title pb-3">
               Purpose | What is Waste Knot?

@@ -28,7 +28,7 @@ const About = () => {
                 <div className="col-md-6 col-lg-6 col-12">
                   <img src={future} alt="home" className="img-fluid" />
                 </div>
-                <div className="col-md-6 col-lg-6 col-12 about-text">
+                <div className="col-md-6 col-lg-6 col-12 about-text pt-5">
                   <p className="about-header">
                     Waste Knot is a social enterprise focused on bringing
                     together people, platforms, knowledge and cutting edge
