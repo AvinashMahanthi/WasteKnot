@@ -15,7 +15,7 @@ const Objectives = (props) => {
         </h5>
 
         <div className="row mt-5 col-xl-12">
-          <div className="card col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4">
             <div className="media block-6 services d-block text-center">
               <img className="icon-img" src={barChart} alt="" />
               <div className="media-body">
@@ -29,7 +29,7 @@ const Objectives = (props) => {
             </div>
           </div>
 
-          <div className="card col-md-6 col-lg-4 d-flex align-self-stretch">
+          <div className="col-md-6 col-lg-4 d-flex align-self-stretch">
             <div className="media block-6 services d-block text-center">
               <img className="icon-img" src={puzzle} alt="" />
               <div className="media-body">
@@ -42,7 +42,7 @@ const Objectives = (props) => {
             </div>
           </div>
 
-          <div className="card col-md-6 col-lg-4 d-flex align-self-stretch">
+          <div className="col-md-6 col-lg-4 d-flex align-self-stretch">
             <div className="media block-6 services d-block text-center">
               <img className="icon-img" src={controls} alt="" />
               <div className="media-body">

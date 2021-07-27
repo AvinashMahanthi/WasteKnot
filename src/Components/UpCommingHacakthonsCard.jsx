@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faAngleDoubleRight } from "@fortawesome/free-brands-svg-icons";
+// import { Link } from "@fortawesome/free-brands-svg-icons";
 import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons";
 
 const UpCommingHacakthonsCard = (props) => {

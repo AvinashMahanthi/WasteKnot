@@ -6,9 +6,9 @@ const JoinUs = () => {
 
   return (
     <section>
-      <div id="joinus">
+      <div id="joinus" className="joinus-area joinus-img">
         <div className="container">
-          <span className="bg-img"></span>
+          <span></span>
           <h1>You can start working with us, Right now!</h1>
           <button
             onClick={() => setShow(true)}

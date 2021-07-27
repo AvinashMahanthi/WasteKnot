@@ -62,14 +62,16 @@ const Academy = () => {
                   low cost, scalable and inclusive solutions in the following
                   areas:
                 </p>
-                <p className="Academy-p text-muted">
-                  Solar Panel Recycling <br />
-                  Li-Ion Battery Recycling <br />
-                  Flexible Packaging (Low Value Plastics) Recycling
-                  <br />
-                  Fabric Recycling
-                  <br />
-                </p>
+                <div className="Academy-info">
+                  <ul>
+                    <li className="text-muted">Solar Panel Recycling </li>
+                    <li className="text-muted">Li-Ion Battery Recycling </li>
+                    <li className="text-muted">
+                      Flexible Packaging (Low Value Plastics) Recycling
+                    </li>
+                    <li className="text-muted">Fabric Recycling</li>
+                  </ul>
+                </div>
               </div>
               <div className="text-align-center col-md-5 col-lg-6 order-1">
                 <img src={Academy2} alt="home" className="img-fluid" />

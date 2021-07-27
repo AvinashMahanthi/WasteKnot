@@ -1,5 +1,5 @@
 import img1 from "../assets/images/hackathon.jpg";
-import img2 from "../assets/images/hackathon2.jpeg";
+// import img2 from "../assets/images/hackathon2.jpeg";
 import img3 from "../assets/images/hackathon3.jpg";
 
 const hacakathonData = [

@@ -45,10 +45,10 @@ const Home = () => {
               Purpose | What is Waste Knot?
             </h2>
             <div className="row">
-              <div className="text-align-center col-md-5 col-lg-6 order-2 order-lg-2 pt-2">
+              <div className="text-align-center col-md-6 col-lg-6 order-2 order-lg-2 pt-2">
                 <img src={purpose} alt="home" className="img-fluid" />
               </div>
-              <div className="col-md-6 col-lg-5 mx-2">
+              <div className="col-md-6 col-lg-6">
                 <p className="purpose-p text-muted">
                   Waste Knot works with the core purpose of building a global
                   platform for innovative, low-cost, and scalable for solutions
@@ -61,6 +61,12 @@ const Home = () => {
                   the waste management systems, think tanks, non-profits,
                   government agencies, and investors to co-create solutions for
                   the plastic waste problem.
+                </p>
+                <p className="purpose-p text-muted">
+                  Waste Knot works with the core purpose of building a global
+                  platform for innovative, low-cost, and scalable for solutions
+                  to accelerate the transition towards an inclusive and
+                  equitable circular economy.
                 </p>
                 <button to="/About" className="joinusbutton">
                   About us
@@ -106,7 +112,8 @@ const Home = () => {
               <div className="col-sm-4 col-xl-4 col-md-4">
                 <div className="single_counter card text-center">
                   <h2>
-                    <span className="counter">15</span> <span>B USD</span>
+                    <span className="counter">15</span>
+                    <span>B USD</span>
                   </h2>
                   <h6 className="text-muted">
                     Projected Worth Waste Management
