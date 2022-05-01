@@ -6,7 +6,7 @@ const Modal = (props) => {
   }
 
   return (
-    <div className="modal">
+    <div style={{ margin: "2rem" }} className="modal m-2">
       <div className="modal-content">
         <div className="modal-header">
           <h4>Join the Team</h4>
@@ -20,7 +20,9 @@ const Modal = (props) => {
           </p>
           <form>
             <div className="form-group">
-              <label for="exampleInputEmail1">Email address</label>
+              <label for="exampleInputEmail1">
+                <strong>Email address</strong>
+              </label>
               <input
                 type="email"
                 className="form-control"
@@ -30,12 +32,14 @@ const Modal = (props) => {
               />
             </div>
             <div className="form-group">
-              <label for="exampleInputPassword1">Name</label>
+              <label for="exampleInputPassword1">
+                <strong>Name</strong>
+              </label>
               <input
                 type="name"
                 className="form-control"
                 id="exampleInputPassword1"
-                placeholder="Password"
+                placeholder="Enter your Name"
               />
             </div>
             <button type="submit" className="btn btn-primary">
